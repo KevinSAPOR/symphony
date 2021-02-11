@@ -3,11 +3,11 @@
 {% block title %}Edit Newsletter{% endblock %}
 
 {% block body %}
-    <h1>Edit Newsletter</h1>
+    <h1>Modifier le compte Newsletter</h1>
 
-    {{ include('newsletter/_form.html.twig', {'button_label': 'Update'}) }}
+    {{ include('newsletter/_form.html.twig', {'button_label': 'modifier'}) }}
 
-    <a href="{{ path('newsletter_index') }}">back to list</a>
+    <a href="{{ path('newsletter_index') }}">retour à la liste</a>
 
     {{ include('newsletter/_delete_form.html.twig') }}
 {% endblock %}
